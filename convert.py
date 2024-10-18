@@ -2,8 +2,8 @@ from docx import Document
 import os
 
 # Paths
-doc_path = '/Users/dma/Downloads/_Cortex XDR Event Forwarding to Google SecOps (Chronicle).docx'  # Replace with your actual path
-img_folder = './images'  # Path where images will be stored
+doc_path = ''  # Replace with your actual path
+img_folder = ''  # Path where images will be stored
 
 # Create a folder to store images if it doesn't exist
 os.makedirs(img_folder, exist_ok=True)
